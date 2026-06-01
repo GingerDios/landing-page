@@ -1,0 +1,58 @@
+
+/*aca dividi cada seccion para q cada uno trabaje en su seccion separadamente sin afectar a los otros*/
+
+/*esta seccion para todo lo general de la pagina*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* esta seccion la pueden usar para el header*/
+
+.header{
+    background-color: #386641;
+    width: 100vw;
+    height: 10vh;
+
+}
+
+/*esta seccion para el contador*/
+
+.contador{
+    background-color: #f2e8cf;
+    width: 100vw;
+    height: 40vh;
+}
+
+/* esta seccion para el encargado de hacer el carrusel*/
+
+.carrusel{
+    background-color: #a7c957;
+    width: 100vw;
+    height: 50vh;
+}
+
+/* esta seccion para todo lo que es las tarjetas de productos populares o mas comprados*/
+
+.popular{
+    background-color: #6a994e;
+    width: 100vw;
+    height: 40vh;
+}
+
+/* esta seccion para la seccion de preguntas y respuestas frecuentes*/
+
+.faq{
+    background-color: #bc4749;
+    width: 100vw;
+    height: 60vh;
+}
+
+/*footer y eso*/
+
+.footer{
+    background-color: #386641;
+    width: 100vw;
+    height: 30vh;
+}
