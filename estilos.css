@@ -46,15 +46,75 @@ body{
 }
 
 /* esta seccion para todo lo que es las tarjetas de productos populares o mas comprados*/
+@keyframes cardshake{
 
+    25%{transform:rotate(1deg);}
+    75%{transform: rotate(-1deg);}
+
+
+}
 .popular{
     background-color: #6a994e;
     width: 100vw;
-    height: 40vh;
+    height: 60vh;
     
     color:blanchedalmond;
     font-size: 3vh;
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tarjetascont{
+    background-color: #a7c957;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tarjeta{
+    width: 20%;
+    height: 150%;
+    background-color: green;
+    animation-name: cardshake;
+    animation-duration:2.5s;
+    animation-iteration-count: infinite;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tarjeta:hover{
+    width: 20%;
+    height: 150%;
+    background-color: green;
+    animation-name: cardshake;
+    animation-duration:.25s;
+    animation-iteration-count: infinite;
+    border-radius: 5%;
+    display: flex;
+       justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+.tarjetaimg{
+    height: 30%;
+    width: 80%;
+    background-color:#bc4749;
+}
+.tarjetatxt{
+    height: 50%;
+    width: 80%;
+    color: blanchedalmond;
+    padding: 0%;
+
+}
+.cardtxt{
+    margin-top: 0%;
 }
 
 /* esta seccion para la seccion de preguntas y respuestas frecuentes*/
@@ -62,11 +122,63 @@ body{
 .faq{
     background-color: #bc4749;
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     
     color:blanchedalmond;
     font-size: 3vh;
     font-family: Arial, Helvetica, sans-serif;
+}
+.faq-item {
+    margin-bottom: 15px;
+    border: 1px solid rgba(20, 53, 2, 0.2);
+    border-radius: 15px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.03);
+    transition: 0.3s;
+}
+
+.faq-question {
+    width: 100%;
+    padding: 22px;
+    background: none;
+    border: none;
+    color: var(--verde-neon);
+    text-align: left;
+    font-size: 1.15rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question:hover { background: rgba(0, 191, 255, 0.05); }
+
+.faq-question span {
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.faq-item.active .faq-question span {
+    transform: rotate(45deg); 
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.faq-answer p {
+    padding: 0 22px 22px;
+    margin: 0;
+    color: var(--texto-secundario);
+    line-height: 1.7;
+}
+
+.faq-item.active .faq-answer {
+    max-height: 300px;
 }
 
 /*footer y eso*/
