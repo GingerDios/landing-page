@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
     <title>REBAJAS NAVIDEÑAS</title>
+
 </head>
 <body>
     <div class="header">
@@ -12,13 +13,42 @@ header
     </div>
     
 
-    <div class="contador">
-contador
+    <div class="contadora">
+            <div class="contador">
+    <h2 class="contador-titulo">🎄 Tiempo hasta Navidad 🎄</h2>
+    <div class="contador-numeros">
+      <div class="contador-bloque">
+        <span id="dias">00</span>
+        <p>Días</p>
+      </div>
+      <div class="contador-bloque">
+        <span id="horas">00</span>
+        <p>Horas</p>
+      </div>
+      <div class="contador-bloque">
+        <span id="minutos">00</span>
+        <p>Minutos</p>
+      </div>
+      <div class="contador-bloque">
+        <span id="segundos">00</span>
+        <p>Segundos</p>
+      </div>
+    </div>
+  </div>
     </div>
 
 
-    <div class="carrusel">
-carrusel
+    <div class="carruselfondo">
+        <h2>Mis fotos</h2>
+
+    <img id="foto" src="OIP (1).webp">
+
+    <br><br>
+
+    <button onclick="anterior()">Anterior</button>
+    <button onclick="siguiente()">Siguiente</button>
+
+    <script src="script.js"></script>
     </div>
 
 
@@ -27,23 +57,48 @@ carrusel
         <div class="tarjetascont">
             <div class="tarjeta">
                 <div class="tarjetaimg">
-
+                    <img src="imagenes/mas-populares/carta1.webp" class="imgcarta">
                 </div>
                 <div class="tarjetatxt">
-                    <p class="cardtxt">hola pe</p>
+                    <p class="cardtxt" style="font-size: 1.5em;"><b>Arbolitos</b></p>
+                    <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
                     
                 </div>
      
             </div>
             <div class="tarjeta">
+                <div class="tarjetaimg">
+                    <img src="imagenes/mas-populares/carta2.webp" class="imgcarta">
+                    
+                </div>
+                <div class="tarjetatxt">
+                    <p class="cardtxt" style="font-size: 1.5em;"><b>Juguetes</b></p>
+                    <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
+                    
+                </div>
+     
+            </div>
+            <div class="tarjeta">
+                <div class="tarjetaimg">
+                    <img src="imagenes/mas-populares/carta3.jpg" class="imgcarta">
+                </div>
+                <div class="tarjetatxt">
+                    <p class="cardtxt" style="font-size: 1.5em;"><b>Electro<br>domesticos</b></p>
+                    <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
+                    
+                </div>
 
      
             </div>
             <div class="tarjeta">
-
-     
-            </div>
-            <div class="tarjeta">
+                <div class="tarjetaimg">
+                    <img src="imagenes/mas-populares/carta4.jpg" class="imgcarta">
+                </div>
+                <div class="tarjetatxt">
+                    <p class="cardtxt" style="font-size: 1.5em;"><b>Arbolitos</b></p>
+                    <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
+                    
+                </div>
 
      
             </div>
@@ -53,12 +108,12 @@ carrusel
 
     <div class="faq">
         <section id="faq" class="proceso-section">
-            <h2 class="titulo-seccion">Preguntas Frecuentes</h2>
+
             <div class="faq-container" style="max-width: 750px; margin: 0 auto; text-align: left;">
                 <div class="faq-item">
-                    <button class="faq-question">¿x? <span>></span></button>
+                    <button class="faq-question">¿Que tan buenas seran las rebajas? <span>></span></button>
                     <div class="faq-answer">
-                        <p>-</p>
+                        <p> En esta pagina puedes encontrar todo tipo de descuentos llegando hasta incluso el 90%</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -88,8 +143,9 @@ carrusel
 footer
     </footer>
     
-
-
+<script src="carrusel.js"></script>
+<script src="cartas.js"></script>
 <script src="faq.js"></script>
+<script src="contador.js"></script>
 </body>
 </html>
