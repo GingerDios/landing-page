@@ -9,7 +9,7 @@ body{
 }
 .categoriatitulo{
     height: 10vh;
-    width: 100vw;
+    width: auto;
     background-color: #386641;
     color: blanchedalmond;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -22,19 +22,20 @@ body{
 
 .header{
     background-color: #386641;
-    width: 100vw;
+    width: auto;
     height: 10vh;
 
     color:blanchedalmond;
     font-size: 3vh;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /*esta seccion para el contador*/
 
 .contadora{
     background-color: #bc4749;
-    width: 100vw;
+    width: auto;
     height: auto;
     
     color:#a7c957;
@@ -78,7 +79,7 @@ body{
 
 .carruselfondo{
     background-color: #a7c957;
-    width: 100vw;
+    width: auto;
     height: 60vh;
     
     color:blanchedalmond;
@@ -129,7 +130,7 @@ img {
 .popular{
     background:linear-gradient(to bottom,#6a994e,#6a994e);
     background-color: #6a994e;
-    width: 100vw;
+    width: auto;
     height: auto;
     
     color:blanchedalmond;
@@ -252,7 +253,7 @@ img {
 
 .faq{
     background-color: #bc4749;
-    width: 100vw;
+    width: auto;
     height: auto;
     
     color:blanchedalmond;
@@ -265,7 +266,7 @@ img {
 }
 .faqcontenedor{
     height: auto;
-    width: 100vw;
+    width: auto;
     margin-top: 5vh;
     margin-bottom: 5vh;
     display: flex;
@@ -332,7 +333,7 @@ img {
 
 .footer{
     background-color: #386641;
-    width: 100vw;
+    width: auto;
     height: 30vh;
     
     color:blanchedalmond;
@@ -350,17 +351,15 @@ html{
     scroll-behavior:smooth;
 }
 
-body{
-    font-family: "Cinzel", serif;
-    background:#1b0000;
-    padding:25px;
-}
+
 
 .christmas-header{
     width:100%;
     background:linear-gradient(135deg,#062c18,#29764a);
     overflow:hidden;
     box-shadow:0 10px 30px rgba(0,0,0,.25);
+    justify-self: center;
+    align-self: center;
 }
 
 .hero{
