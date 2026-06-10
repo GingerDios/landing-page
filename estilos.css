@@ -33,11 +33,11 @@ body{
 /*esta seccion para el contador*/
 
 .contadora{
-    background-color: #f2e8cf;
+    background-color: #bc4749;
     width: 100vw;
     height: auto;
     
-    color:sienna;
+    color:#a7c957;
     font-size: 3vh;
     font-family: Arial, Helvetica, sans-serif;
   
@@ -99,7 +99,7 @@ img {
     width: 25%;
     padding: 10px;
     border: none;
-    background:darkgreen;
+    background:#6a994e;
     opacity: 100%;
     transition: .5s;
     color: blanchedalmond;
@@ -111,7 +111,7 @@ img {
     width: 35%;
     padding: 10px;
     border: none;
-    background-color: rgb(0, 82, 0);
+    background-color: #6a994e;
     opacity: 100%;
     transition: .5s;
 }
