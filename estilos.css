@@ -90,31 +90,49 @@ body{
     align-items: center;
 }
 
-img {
+.tree {
     width: 50%;
     height: 100%;
 }
-
+.carruselseccion{
+    height: 50vh;
+    width: auto;
+    padding: 0;
+}
 .carruselfondo .button{
-    height: 100%;
+    height: 50vh;
     width: 25%;
     padding: 10px;
     border: none;
-    background:#6a994e;
+    background:darkgreen;
     opacity: 100%;
     transition: .5s;
-    color: blanchedalmond;
-    font-size: 300%;
-    font-weight: bolder;
+    color: rgb(255, 235, 205);
+    margin-bottom: 10vh;
+    opacity: 50%;
+   
+position: absolute;
+z-index: 1;
+}
+.carruselseccion .carruselfoto{    
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    left: 25%;
+    margin-bottom: 10vh;
+   
+    
+
 }
 .carruselfondo .button:hover{
-    height: 100%;
-    width: 35%;
+    height: 50vh;
+    width: 30%;
     padding: 10px;
     border: none;
-    background-color: #6a994e;
-    opacity: 100%;
-    transition: .5s;
+    background-color: darkgreen;
+    position: absolute;
+    z-index: 1;
+    opacity: 50%;
 }
 
 
