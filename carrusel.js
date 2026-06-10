@@ -1,4 +1,4 @@
-var fotos = ["OIP (1).webp", "OIP (2).webp", "OIP (3).webp"];
+var fotos =["imagenes/carrusel/OIP (1).webp", "imagenes/carrusel/OIP (2).webp", "imagenes/carrusel/OIP (3).webp"];
 var posicion = 0;
 
 function siguiente() {
