@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="imagenes/OIP-removebg-preview.png">
+
     <title>REBAJAS NAVIDEÑAS</title>
 
 </head>
@@ -18,7 +20,7 @@
                 <img src="./imagenes/OIP-removebg-preview.png" alt="Árbol" class="tree">
 
                 <div class="title-box">
-                    <h1>Rebajas Navideñas</h1>
+                    <h1>NaviGif</h1>
                 </div>
 
                 <img src="./imagenes/OIP-removebg-preview.png" alt="Árbol" class="tree">
@@ -31,23 +33,23 @@
             <ul>
 
                 <li>
-                    <a href="#contador" class="nav-link">Contador</a>
+                    <a href="#contador">Contador</a>
                 </li>
 
                 <li>
-                    <a href="#oferta" class="nav-link">
-                        Oferta
+                    <a href="#carrusel">
+                        Ofertas
                     </a>
                 </li>
 
                 <li>
-                    <a href="#buscados" class="nav-link">
+                    <a href="#popular">
                         Más Buscados
                     </a>
                 </li>
 
                 <li>
-                    <a href="#faq" class="nav-link">
+                    <a href="#faq">
                         FAQ
                     </a>
                 </li>
@@ -56,9 +58,8 @@
         </nav>
 
     </header>
-    
 
-    <div class="contadora">
+    <div class="contadora" id="contador">
             <div class="contador">
     <h2 class="contador-titulo">🎄 Tiempo hasta Navidad 🎄</h2>
     <div class="contador-numeros">
@@ -82,15 +83,15 @@
   </div>
     </div>
 
-    <div class="categoriatitulo">
+    <div class="categoriatitulo" id="carrusel">
         <h1>Ofertas mas destacadas</h1>
     </div>
-    <div class="carruselseccion">
+    <div class="carruselseccion" >
     <div class="carruselfondo">
         
 
     <button onclick="anterior()" class="button"><</button>
-    <img id="foto" src="imagenes/carrusel/OIP (1).webp" class="carruselfoto">
+    <img id="foto" src="imagenes/carrusel/banner1.png" class="carruselfoto">
 
  
 
@@ -106,7 +107,7 @@
         <h1>Productos populares</h1>
     </div>
     
-    <div class="popular">
+    <div class="popular" id="popular">
 
         <div class="tarjetascont">
             <div class="tarjeta">
@@ -116,15 +117,54 @@
                 </div>
                 <div class="tarjetatxt">
                     <p class="cardtxt" style="font-size: 5vh;"><b>Arbolitos</b></p>
-                    <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
+                    <p class="cardtxt">REBAJAS hasta el 40% de descuento</p>
                     
                 </div>
-                <div class="tarjetacontenido">
-                    <p>tiren paro</p>
-
                 </div>
+                <div class="tarjetacontenido">
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/arbolito1.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> Arbolito verde</b></p>
+                            <p class="cardtxt"> <del>$142.499</del><br>$92.399</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/arbolito2.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> Arbolito nevado</b></p>
+                            <p class="cardtxt"> <del>$162.499</del><br>$104.999</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/arbolito3.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> Arbol economico</b></p>
+                            <p class="cardtxt"> <del>$99.999</del><br>$49.999</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/arbolito4.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> Arbol natural</b></p>
+                            <p class="cardtxt"> <del>$184.499</del><br>$125.000</p>
+                        </div>
+                    </div>
+                    
+                    
+                    
                 
                 </div>
+                
+                
             </div>
             <div class="tarjeta">
                 <div class="tarjetaestado">
@@ -137,12 +177,48 @@
                     <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
                     
                 </div>
+                </div>
                 <div class="tarjetacontenido">
-                    <p>tiren paro</p>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/juguete1.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> set de legos</b></p>
+                            <p class="cardtxt"> <del>$112.299</del><br>$60.299</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/juguete2.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> herramientas de playa</b></p>
+                            <p class="cardtxt"> <del>$30.000</del><br>$20.000</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/juguete3.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> auto a control remoto</b></p>
+                            <p class="cardtxt"> <del>$129.999</del><br>$69.999</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/juguete4.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> cocina de juguete</b></p>
+                            <p class="cardtxt"> <del>$287.499</del><br>$200.000</p>
+                        </div>
+                    </div>
 
                 </div>
 
-                </div>
+                
             </div>
             <div class="tarjeta">
                 <div class="tarjetaestado">
@@ -152,15 +228,42 @@
                 </div>
                 <div class="tarjetatxt">
                     <p class="cardtxt" style="font-size: 5vh;"><b>Electro<br>domesticos</b></p>
-                    <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
+                    <p class="cardtxt">REBAJAS hasta el 60% de descuento</p>
                     
                 </div>
+                </div>
                 <div class="tarjetacontenido">
-                    <p>tiren paro</p>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/electro1.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> pava electrica</b></p>
+                            <p class="cardtxt"> <del>$82.499</del><br>$45.000</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/electro2.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> Arbolito nevado</b></p>
+                            <p class="cardtxt"> <del>$725.499</del><br>$350.245</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/electro3.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> television</b></p>
+                            <p class="cardtxt"> <del>$1.244.499</del><br>$850.000</p>
+                        </div>
+                    </div>
 
                 </div>
 
-                </div>
+                
             </div>
             <div class="tarjeta">
                 <div class="tarjetaestado">
@@ -169,18 +272,43 @@
                     <img src="imagenes/mas-populares/carta4.jpg" class="imgcarta">
                 </div>
                 <div class="tarjetatxt">
-                    <p class="cardtxt" style="font-size: 5vh;"><b>Arbolitos</b></p>
-                    <p class="cardtxt">REBAJAS hasta el 50% de descuento</p>
+                    <p class="cardtxt" style="font-size: 5vh;"><b>Decoracion</b></p>
+                    <p class="cardtxt">REBAJAS hasta el 90% de descuento</p>
                     
                 </div>
+                </div>
                 <div class="tarjetacontenido">
-                    <p>tiren paro</p>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/deco1.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> luces navideñase</b></p>
+                            <p class="cardtxt"> <del>$15.000</del><br>$8.000</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/deco2.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> cubierta del arbolito</b></p>
+                            <p class="cardtxt"> <del>$10.000</del><br>$1.000</p>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <div class="tarjetaimg">
+                            <img src="imagenes/mas-populares/deco3.webp" alt="" class="imgcarta">
+                        </div>
+                        <div class="tarjetatxt">
+                            <p class="cardtxt" style="font-size: 4vh;"> <b> corona navideña</b></p>
+                            <p class="cardtxt"> <del>$20.999</del><br>$14.000</p>
+                        </div>
+                    </div>
+                    
 
                 </div>
                 
-                </div>
-
-     
             </div>
         </div>
     </div>
@@ -246,7 +374,20 @@
 
         </form>
 
-        <p class="copyright">© 2026 NaviGift - Navidad para todos.</p>
+        
+
+  
+
+  <p>© 2026  - Todos los derechos reservados</p>
+
+  <p>Contacto: info@navidad.com | Tel: 0800-DESCUENTOS NAVIDEÑOS</p>
+
+  <p>
+<div class="footer-links">
+      <a href="#">Privacidad</a> |
+      <a href="#">Términos</a> |
+      <a href="#">Ayuda</a>
+    </div>
 
     </footer>
 <script src="footer.js"></script>

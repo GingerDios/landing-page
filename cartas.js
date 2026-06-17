@@ -7,8 +7,6 @@ tarjeta.forEach(contenido => {
         
 
             tarjetacontenido.classList.toggle('abierto');
-            
-
             const cardspan = tarjetacontenido.querySelector('span');
         }
     )});

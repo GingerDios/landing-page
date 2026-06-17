@@ -2,6 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    scroll-behavior: smooth;
 }
 .categoriatitulo{
     height: 10vh;
@@ -31,7 +32,7 @@ body{
 
 .contadora{
     background: linear-gradient(to bottom, #b40000, #da4646);
-    width: 100vw;
+    width: auto;
     height: auto;
     
     color:#ffffff;
@@ -75,8 +76,8 @@ body{
 
 .carruselfondo{
     background-color: #386641;
-    width: 100vw;
-    height: 60vh;
+    width: auto;
+    height: 80vh;
     
     color:blanchedalmond;
     font-size: 3vh;
@@ -91,12 +92,12 @@ body{
     height: 100%;
 }
 .carruselseccion{
-    height: 50vh;
+    height: 70vh;
     width: auto;
     padding: 0;
 }
 .carruselfondo .button{
-    height: 50vh;
+    height: 70vh;
     width: 25%;
     padding: 10px;
     border: none;
@@ -105,14 +106,14 @@ body{
     transition: .5s;
     color: rgb(255, 235, 205);
     margin-bottom: 10vh;
-    opacity: 50%;
+    opacity: 100%;
    
 position: absolute;
 z-index: 1;
 }
 .carruselseccion .carruselfoto{    
     width: 50%;
-    height: 50vh;
+    height: 70vh;
     position: absolute;
     left: 25%;
     margin-bottom: 10vh;
@@ -121,12 +122,12 @@ z-index: 1;
 
 }
 .carruselfondo .button:hover{
-    height: 50vh;
+    height: 70vh;
     width: 30%;
     padding: 10px;
     border: none;
     background-color: linear-gradient(135deg,#062c18,#29764a);
-    opacity: 100%;
+    opacity: 75%;
     transition: .5s;
 }
 
@@ -141,7 +142,7 @@ z-index: 1;
 }
 .popular{
     background: linear-gradient(135deg,#062c18,#29764a);
-    width: 100vw;
+    width: auto;
     height: auto;
     
     font-size: 3vh;
@@ -171,7 +172,7 @@ z-index: 1;
     animation-name: cardshake;
     animation-duration:2.5s;
     animation-iteration-count: infinite;
-    border-radius: 5%;
+    border-radius: 2.5vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -187,7 +188,7 @@ z-index: 1;
     animation-name: cardshake;
     animation-duration:.25s;
     animation-iteration-count: infinite;
-    border-radius: 5%;
+    border-radius: 2.5vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -241,6 +242,8 @@ z-index: 1;
     background: rgba(0, 0, 0, 0.15);
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 
 .tarjetacontenido p {
@@ -252,18 +255,37 @@ z-index: 1;
 
 .tarjetacontenido.abierto{
     width: 84vw;
+    margin: 2vw;
+    margin-bottom: 4vh;
+    border-radius: 2vh;
 
-    height: 100vh;
+    height: 65vh;
     
-    transition: 0.4s ease-out;
-    justify-content: center;
+    transition: height 0.4s ease, width 0.4s ease-out;
+    
+    justify-content: space-around;
 }
+
+/* producto de la tarjeta*/
+
+.producto{
+    height: 60vh;
+    width: 32vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+    border-radius: 2vh;
+    background: linear-gradient(to top, darkred,red);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 
 /* esta seccion para la seccion de preguntas y respuestas frecuentes*/
 
 .faq{
     background: linear-gradient(to bottom, #b40000, #da4646);
-    width: 100vw;
+    width: auto;
     height: auto;
     
     color:blanchedalmond;
@@ -415,6 +437,7 @@ nav ul{
     justify-content:center;
     gap:70px;
     padding:18px;
+    z-index: 1;
 }
 
 nav a{
@@ -586,4 +609,31 @@ nav ul{
     padding:0 20px;
 }
 
+}
+
+
+
+footer a {
+  color: #E1306C; 
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-links {
+  margin-top: 12px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 8px;
+}
+
+.footer-links a:hover {
+  color: #E1306C;
 }
