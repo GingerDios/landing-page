@@ -185,9 +185,7 @@ z-index: 1;
     width: auto;
     height: auto;
     background-color: rgb(6, 122, 87);
-    animation-name: cardshake;
-    animation-duration:.25s;
-    animation-iteration-count: infinite;
+    
     border-radius: 2.5vh;
     display: flex;
     justify-content: space-around;
@@ -279,7 +277,21 @@ z-index: 1;
     background: linear-gradient(to top, darkred,red);
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-
+.producto:hover{
+    height: 60vh;
+    width: 32vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1vh;
+    border-radius: 2vh;
+    background: linear-gradient(to top, darkred,red);
+    box-shadow: rgba(140, 215, 180, 0.511) 0px 20px 30px -10px;
+    animation-name: cardshake;
+    animation-duration:.25s;
+    animation-iteration-count: infinite;
+    
+}
 
 /* esta seccion para la seccion de preguntas y respuestas frecuentes*/
 
